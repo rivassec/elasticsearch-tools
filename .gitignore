@@ -1,0 +1,38 @@
+# Ignore secrets and credentials
+*.key
+*.pem
+*.crt
+*.env
+*.secret
+*.bak
+*.api-key
+*.token
+
+# Ignore editor and system files
+*.swp
+*.swo
+*.DS_Store
+*~
+
+# Ignore temp and log files
+*.log
+*.tmp
+*.pid
+
+# Ignore compiled/interpreted files
+*.pyc
+__pycache__/
+
+# Ignore outputs and collected metrics
+*.prom
+
+# Ignore backup config dumps
+*.conf.bak
+*.json.bak
+
+# Node exporter metrics temp file location (if testing locally)
+textfile_collector/
+
+# Ignore test results or artifacts
+test-output/
+coverage/
