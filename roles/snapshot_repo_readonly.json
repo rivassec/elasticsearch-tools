@@ -1,10 +1,10 @@
 {
   "snapshot_repo_readonly": {
     "cluster": [
-      "cluster:admin/repository/get",        // Read repository details
-      "cluster:admin/repository/verify",     // Verify repository
-      "cluster:admin/snapshot/get",          // List and inspect snapshot metadata
-      "cluster:admin/snapshot/status"        // View snapshot status
+      "cluster:admin/repository/get",
+      "cluster:admin/repository/verify",
+      "cluster:admin/snapshot/get",
+      "cluster:admin/snapshot/status"
     ],
     "indices": [],
     "run_as": [],
